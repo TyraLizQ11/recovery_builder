@@ -19,7 +19,6 @@ repo sync
 git clone $DT_LINK $DT_PATH
 
 echo " ===+++ Building Recovery +++==="
-cd bootable/recovery
 . build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
 lunch twrp_${DEVICE}-eng && mka bootimage
