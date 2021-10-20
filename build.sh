@@ -4,7 +4,7 @@
 
 MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
 DEVICE=juice
-DT_LINK="https://github.com/mastersenpai05/twrp_device_xiaomi_juice -b android-11"
+DT_LINK="https://github.com/mastersenpai05/twrp_device_xiaomi_juice -b android-11.0"
 DT_PATH=device/xiaomi/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
