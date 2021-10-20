@@ -3,8 +3,8 @@
 # Just a basic script U can improvise lateron asper ur need xD 
 
 MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
-DEVICE=camellia
-DT_LINK="https://github.com/mastersenpai0405/twrp_device_xiaomi_camellia"
+DEVICE=ares
+DT_LINK="https://github.com/mastersenpai0405/recovery_device_xiaomi_ares"
 DT_PATH=device/xiaomi/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
