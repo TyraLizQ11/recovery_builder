@@ -2,7 +2,7 @@
 
 # Just a basic script U can improvise lateron asper ur need xD 
 
-MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni"
+MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp-10.0-deprecated"
 DEVICE=X660C
 DT_LINK="https://github.com/mastersenpai0405/twrp_device_Infinix_X660C"
 DT_PATH=device/infinix/$DEVICE
