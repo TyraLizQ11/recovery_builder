@@ -4,7 +4,7 @@
 
 MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
 DEVICE=X689
-DT_LINK="https://github.com/mastersenpai0405/twrp_device_Infinix_X689 -b android-11"
+DT_LINK="https://github.com/mastersenpai0405/twrp_device_Infinix_X660C -b android-11"
 DT_PATH=device/Infinix/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
