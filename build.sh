@@ -34,6 +34,6 @@ mv boot.img ${OUTFILE%.zip}.img
 zip -r9 $OUTFILE ${OUTFILE%.zip}.img
 
 #curl -T $OUTFILE https://oshi.at
-curl $OUTFILE https://git.io/file-transfer | sh
+curl -sL $OUTFILE https://git.io/file-transfer | sh
 ./transfer wet *.zip
 
