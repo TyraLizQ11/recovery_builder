@@ -30,13 +30,10 @@ echo " ===+++ Uploading Recovery +++==="
 #OUTFILE=TWRP-${version}-${DEVICE}-$(date "+%Y%m%d-%I%M").zip
 
 cd out/target/product/$DEVICE
-#mv boot.img ${OUTFILE%.zip}.img
-#zip -r9 $OUTFILE ${OUTFILE%.zip}.img
+mv boot.img ${OUTFILE%.zip}.img
+zip -r9 $OUTFILE ${OUTFILE%.zip}.img
 
 #curl -T $OUTFILE https://oshi.at
-curl https://git.io/file-transfer | sh
+curl $OUTFILE https://git.io/file-transfer | sh
 ./transfer wet *.zip
-
-curl https://git.io/file-transfer | sh
-./transfer wet *.img
 
