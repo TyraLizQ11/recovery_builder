@@ -4,7 +4,7 @@
 
 MANIFEST="https://github.com/SHRP/platform_manifest_twrp_omni -b v3_11.0"
 DEVICE=ares
-DT_LINK="https://github.com/mastersenpai0405/recovery_device_xiaomi_ares"
+DT_LINK="https://github.com/mastersenpai0405/recovery_device_xiaomi_ares -b test"
 DT_PATH=device/xiaomi/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
