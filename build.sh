@@ -3,9 +3,9 @@
 # Just a basic script U can improvise lateron asper ur need xD 
 
 MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp-10.0-deprecated"
-DEVICE=CE7
-DT_LINK="https://github.com/mastersenpai0405/twrp_device_tecno_CE7"
-DT_PATH=device/tecno/$DEVICE
+DEVICE=X683
+DT_LINK="https://github.com/mastersenpai0405/twrp_device_infinix_X683"
+DT_PATH=device/infinix/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
