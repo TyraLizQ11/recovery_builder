@@ -16,7 +16,7 @@ mkdir ~/twrp && cd ~/twrp
 echo " ===+++ Syncing Recovery Sources +++==="
 echo " ===+++ Sync OrangeFox +++==="
 git clone $MANIFEST ~/FOX && cd ~/FOX
-./get_fox_11.sh ~/fox_11.0
+./orangefox_sync.sh --branch 11.0 --path ~/fox_11.0
 cd ~/fox_11.0
 git clone $DT_LINK $DT_PATH
 
