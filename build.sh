@@ -4,7 +4,7 @@
 
 MANIFEST="https://gitlab.com/OrangeFox/sync.git"
 DEVICE=ares
-DT_LINK="https://github.com/mastersenpai0405/recovery_device_xiaomi_ares -b fox_11.0
+DT_LINK="https://github.com/mastersenpai0405/recovery_device_xiaomi_ares -b fox_11.0"
 DT_PATH=device/xiaomi/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
@@ -13,7 +13,6 @@ apt update --fix-missing
 apt install openssh-server -y
 mkdir ~/twrp && cd ~/twrp
 
-echo " ===+++ Syncing Recovery Sources +++==="
 echo " ===+++ Sync OrangeFox +++==="
 git clone $MANIFEST ~/FOX && cd ~/FOX
 ./orangefox_sync.sh --branch 11.0 --path ~/fox_11.0
