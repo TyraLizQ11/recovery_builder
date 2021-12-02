@@ -3,8 +3,8 @@
 # Just a basic script U can improvise lateron asper ur need xD 
 
 MANIFEST="https://gitlab.com/OrangeFox/sync.git"
-DEVICE=RMX1941
-DT_LINK="https://github.com/mastersenpai0405/OFRP_RMX1941"
+DEVICE=ares
+DT_LINK="https://github.com/TyraLizQ11/recovery_device_xiaomi_ares -b fox_11.0"
 DT_PATH=device/realme/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
@@ -15,8 +15,8 @@ mkdir ~/twrp && cd ~/twrp
 
 echo " ===+++ Sync OrangeFox +++==="
 git clone $MANIFEST ~/FOX && cd ~/FOX
-./orangefox_sync.sh --branch 10.0 --path ~/fox_10.0
-cd ~/fox_10.0
+./orangefox_sync.sh --branch 11.0 --path ~/fox_11.0
+cd ~/fox_11.0
 git clone $DT_LINK $DT_PATH
 
 echo " ====+++ Building OrangeFox +++==="
@@ -24,7 +24,7 @@ echo " ====+++ Building OrangeFox +++==="
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export LC_ALL="C"
-lunch omni_${DEVICE}-eng && mka recoveryimage
+lunch twrp_${DEVICE}-eng && mka bootimage
 
 # Upload zips & recovery.img
 #echo " ===+++ Uploading Recovery +++===
