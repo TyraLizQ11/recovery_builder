@@ -32,4 +32,4 @@ lunch twrp_${DEVICE}-eng && mka bootimage
 cd out/target/product/$DEVICE
 
 curl -sL https://git.io/file-transfer | sh
-./transfer wet boot.img
+./transfer wet *.zip
