@@ -15,8 +15,8 @@ mkdir ~/twrp && cd ~/twrp
 
 echo " ===+++ Sync OrangeFox +++==="
 git clone $MANIFEST ~/FOX && cd ~/FOX
-./orangefox_sync.sh --branch 10.0 --path ~/fox_11.0
-cd ~/fox_11.0
+./orangefox_sync.sh --branch 10.0 --path ~/fox_10.0
+cd ~/fox_10.0
 git clone $DT_LINK $DT_PATH
 
 echo " ====+++ Building OrangeFox +++==="
@@ -24,7 +24,7 @@ echo " ====+++ Building OrangeFox +++==="
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export LC_ALL="C"
-lunch twrp_${DEVICE}-eng && mka recoveryimage
+lunch omni_${DEVICE}-eng && mka recoveryimage
 
 # Upload zips & recovery.img
 #echo " ===+++ Uploading Recovery +++===
