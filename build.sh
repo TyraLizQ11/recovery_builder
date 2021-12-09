@@ -2,7 +2,7 @@
 
 # Just a basic script U can improvise lateron asper ur need xD 
 
-MANIFEST="https://github.com/mastersenpai0405/platform_manifest_twrp_aosp"
+MANIFEST="https://github.com/FoxRedd/platform_manifest_twrp_aosp"
 DEVICE=ares
 DT_LINK="https://github.com/mastersenpai0405/recovery_device_xiaomi_ares"
 DT_PATH=device/xiaomi/$DEVICE
