@@ -4,7 +4,7 @@
 
 MANIFEST="https://gitlab.com/OrangeFox/sync.git"
 DEVICE=ares
-DT_LINK="https://github.com/OrangeFoxUnOfficial/recovery_device_xiaomi_ares"
+DT_LINK="https://github.com/OrangeFoxUnOfficial/recovery_device_xiaomi_ares -b fox_11.0"
 DT_PATH=device/xiaomi/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
