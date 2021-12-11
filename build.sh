@@ -4,7 +4,7 @@
 
 MANIFEST="https://gitlab.com/OrangeFox/sync.git"
 DEVICE=X688B
-DT_LINK="https://github.com/OrangeFoxUnOfficial/recovery_device_infinix_X688B -b shrp_10.0"
+DT_LINK="https://github.com/OrangeFoxUnOfficial/recovery_device_infinix_X688B"
 DT_PATH=device/infinix/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
