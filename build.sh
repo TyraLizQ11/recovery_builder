@@ -3,9 +3,9 @@
 # Just a basic script U can improvise lateron asper ur need xD 
 
 MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp-10.0-deprecated"
-DEVICE=ATOM
-DT_LINK="https://github.com/OrangeFoxUnOfficial/fox_device_symphony_atom"
-DT_PATH=device/symphony/$DEVICE
+DEVICE=X688B
+DT_LINK="https://github.com/OrangeFoxUnOfficial/recovery_device_infinix_X688B"
+DT_PATH=device/infinix/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
