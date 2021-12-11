@@ -2,9 +2,9 @@
 
 # Just a basic script U can improvise lateron asper ur need xD 
 
-MANIFEST="https://github.com/SHRP/platform_manifest_twrp_omni -b v3_10.0"
+MANIFEST="manifest_pb -b android-10.0"
 DEVICE=X688B
-DT_LINK="https://github.com/OrangeFoxUnOfficial/recovery_device_infinix_X688B -b shrp_10.0"
+DT_LINK="https://github.com/OrangeFoxUnOfficial/recovery_device_infinix_X688B -b pbrp_10.0"
 DT_PATH=device/infinix/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
