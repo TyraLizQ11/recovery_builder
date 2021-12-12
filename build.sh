@@ -2,7 +2,7 @@
 
 # Just a basic script U can improvise lateron asper ur need xD 
 
-MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp_9.0"
+MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni"
 DEVICE=S8_Pro
 DT_LINK="https://github.com/OrangeFoxUnOfficial/android_device_cherry_mobile_Flare_S8_Pro"
 DT_PATH=device/cherrymobile/$DEVICE
