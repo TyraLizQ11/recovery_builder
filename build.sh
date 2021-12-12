@@ -2,10 +2,10 @@
 
 # Just a basic script U can improvise lateron asper ur need xD 
 
-MANIFEST=" https://github.com/PitchBlackRecoveryProject/manifest_pb -b android-10.0"
-DEVICE=X688B
-DT_LINK="https://github.com/OrangeFoxUnOfficial/recovery_device_infinix_X688B -b pbrp_10.0"
-DT_PATH=device/infinix/$DEVICE
+MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp_9.0"
+DEVICE=S8_Pro
+DT_LINK="https://github.com/OrangeFoxUnOfficial/android_device_cherry_mobile_Flare_S8_Pro"
+DT_PATH=device/cherrymobile/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
