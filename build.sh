@@ -2,10 +2,10 @@
 
 # Just a basic script U can improvise lateron asper ur need xD 
 
-MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni"
-DEVICE=S8_Pro
-DT_LINK="https://github.com/OrangeFoxUnOfficial/android_device_cherry_mobile_Flare_S8_Pro"
-DT_PATH=device/cherrymobile/$DEVICE
+MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp_10.0-deprecated"
+DEVICE=CE7
+DT_LINK="https://github.com/OrangeFoxUnOfficial/twrp_device_tecno_CE7"
+DT_PATH=device/tecno/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
