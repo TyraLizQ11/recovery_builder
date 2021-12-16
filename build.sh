@@ -3,8 +3,8 @@
 # Just a basic script U can improvise lateron asper ur need xD 
 
 MANIFEST="https://gitlab.com/OrangeFox/sync.git"
-DEVICE=X688B
-DT_LINK="https://github.com/OrangeFoxUnOfficial/recovery_device_infinix_X688B"
+DEVICE=X689
+DT_LINK="https://github.com/OrangeFoxUnOfficial/twrp_device_Infinix_X689"
 DT_PATH=device/infinix/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
@@ -24,7 +24,7 @@ echo " ====+++ Building OrangeFox +++==="
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export LC_ALL="C"
-lunch omni_${DEVICE}-eng && mka recoveryimage
+lunch twrp_${DEVICE}-eng && mka bootimage
 
 # Upload zips & recovery.img
 #echo " ===+++ Uploading Recovery +++===
