@@ -2,7 +2,7 @@
 
 # Just a basic script U can improvise lateron asper ur need xD 
 
-MANIFEST="https://github.com/FoxRedd/platform_manifest_twrp_aosp"
+MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
 DEVICE=X689
 DT_LINK="https://github.com/OrangeFoxUnOfficial/twrp_device_Infinix_X689"
 DT_PATH=device/infinix/$DEVICE
