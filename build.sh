@@ -15,8 +15,8 @@ mkdir ~/twrp && cd ~/twrp
 
 echo " ===+++ Sync OrangeFox +++==="
 git clone $MANIFEST ~/FOX && cd ~/FOX
-./orangefox_sync.sh --branch 10.0 --path ~/fox_10.0
-cd ~/fox_10.0
+./orangefox_sync.sh --branch 11.0 --path ~/fox_11.0
+cd ~/fox_11.0
 git clone $DT_LINK $DT_PATH
 
 echo " ====+++ Building OrangeFox +++==="
