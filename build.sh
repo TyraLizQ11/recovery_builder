@@ -3,9 +3,9 @@
 # Just a basic script U can improvise lateron asper ur need xD 
 
 MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
-DEVICE=X689
-DT_LINK="https://github.com/OrangeFoxUnOfficial/twrp_device_Infinix_X689"
-DT_PATH=device/infinix/$DEVICE
+DEVICE=garden
+DT_LINK="https://github.com/mastersenpai0405/device_xiaomi_garden -b fox_11.0"
+DT_PATH=device/xiaomi/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
@@ -21,7 +21,7 @@ git clone $DT_LINK $DT_PATH
 echo " ===+++ Building Recovery +++==="
 . build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
-lunch twrp_${DEVICE}-eng && mka bootimage
+lunch twrp_${DEVICE}-eng && mka recoveryimage
 
 # Upload zips & recovery.img
 echo " ===+++ Uploading Recovery +++==="
