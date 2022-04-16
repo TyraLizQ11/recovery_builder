@@ -2,9 +2,9 @@
 
 # Just a basic script U can improvise lateron asper ur need xD 
 
-MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp-10.0-deprecated"
+MANIFEST="https://github.com/mastersenpai0405/platform_manifest_twrp_omni -b twrp-10.0"
 DEVICE=X683
-DT_LINK="https://github.com/mastersenpai0405/recovery_device_infinix_X683"
+DT_LINK="https://github.com/mastersenpai0405/recovery_device_infinix_X688B"
 DT_PATH=device/infinix/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
