@@ -4,7 +4,7 @@
 
 MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
 DEVICE=chopin
-DT_LINK="https://github.com/mastersenpai0405/fox_device_xiaomi_chopin -b android-12.0"
+DT_LINK="https://github.com/mastersenpai0405/fox_device_xiaomi_chopin -b android-12"
 DT_PATH=device/xiaomi/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
