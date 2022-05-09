@@ -3,9 +3,9 @@
 # Just a basic script U can improvise lateron asper ur need xD 
 
 MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-11"
-DEVICE=chopin
-DT_LINK="https://github.com/mastersenpai0405/fox_device_xiaomi_chopin"
-DT_PATH=device/xiaomi/$DEVICE
+DEVICE=RMX2040
+DT_LINK="https://github.com/HemanthJabalpuri/twrp_realme_RMX2040 -b android-11"
+DT_PATH=device/realme/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
@@ -21,7 +21,7 @@ git clone $DT_LINK $DT_PATH
 echo " ===+++ Building Recovery +++==="
 . build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
-lunch twrp_${DEVICE}-eng && mka bootimage
+lunch twrp_${DEVICE}-eng && mka recoveryimage
 
 # Upload zips & recovery.img
 echo " ===+++ Uploading Recovery +++==="
@@ -29,7 +29,7 @@ version=$(cat bootable/recovery/variables.h | grep "define TW_MAIN_VERSION_STR" 
 OUTFILE=TWRP-${version}-${DEVICE}-$(date "+%Y%m%d-%I%M").zip
 
 cd out/target/product/$DEVICE
-mv boot.img ${OUTFILE%.zip}.img
+mv recovery.img ${OUTFILE%.zip}.img
 zip -r9 $OUTFILE ${OUTFILE%.zip}.img
 
 #curl -T $OUTFILE https://oshi.at
