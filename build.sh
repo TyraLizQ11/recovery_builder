@@ -4,7 +4,7 @@
 
 MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-11"
 DEVICE=RMX2040
-DT_LINK="https://github.com/HemanthJabalpuri/twrp_realme_RMX2040 -b android-11"
+DT_LINK="https://github.com/mastersenpai0405/twrp_device_realme_RMX2040 -b android-11"
 DT_PATH=device/realme/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
