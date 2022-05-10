@@ -2,10 +2,10 @@
 
 # Just a basic script U can improvise lateron asper ur need xD 
 
-MANIFEST="https://github.com/mastersenpai0405/platform_manifest_twrp_omni -b twrp-10.0"
-DEVICE=KE5K
+MANIFEST="https://github.com/mastersenpai0405/platform_manifest_twrp_omni"
+DEVICE=1819
 DT_LINK="https://github.com/mastersenpai0405/recovery_device_tecno_KE5K"
-DT_PATH=device/tecno/$DEVICE
+DT_PATH=device/vivo/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
