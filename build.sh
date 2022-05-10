@@ -4,7 +4,7 @@
 
 MANIFEST="https://github.com/mastersenpai0405/platform_manifest_twrp_omni"
 DEVICE=1819
-DT_LINK="https://github.com/mastersenpai0405/recovery_device_tecno_KE5K"
+DT_LINK="https://github.com/mastersenpai0405/twrp_device_vivo_1819 -b android-9"
 DT_PATH=device/vivo/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
