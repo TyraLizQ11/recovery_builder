@@ -2,10 +2,10 @@
 
 # Just a basic script U can improvise lateron asper ur need xD 
 
-MANIFEST="https://github.com/mastersenpai0405/platform_manifest_twrp_omni"
-DEVICE=1819
-DT_LINK="https://github.com/mastersenpai0405/twrp_device_vivo_1819 -b android-9"
-DT_PATH=device/vivo/$DEVICE
+MANIFEST="https://github.com/mastersenpai0405/platform_manifest_twrp_omni -b twrp-10.0"
+DEVICE=KE7
+DT_LINK="https://github.com/mastersenpai0405/android_device_tecno_KE7"
+DT_PATH=device/tecno/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
