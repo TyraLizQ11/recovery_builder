@@ -3,8 +3,8 @@
 # Just a basic script U can improvise lateron asper ur need xD 
 
 MANIFEST="https://gitlab.com/OrangeFox/sync.git"
-DEVICE=chopin
-DT_LINK="https://github.com/mastersenpai0405/fox_device_xiaomi_chopin"
+DEVICE=agate
+DT_LINK="https://github.com/mastersenpai0405/recovery_device_xiaomi_agate"
 DT_PATH=device/xiaomi/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
